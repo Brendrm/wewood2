@@ -42,7 +42,6 @@ header{
 section#relojes{
 	width: 1024px;
 	height: 457px;
-	background-color: tomato;
 	padding-top: 20px;
 }
 
@@ -106,7 +105,7 @@ section#relojes h2{
 	width: 324px;
 	height: 105px;
 	text-align: right;
-	padding-top: 15px;
+	padding-top: 20px;
 	padding-right: 10px;
 	
 }
@@ -114,13 +113,37 @@ section#relojes h2{
 div.boxrelojes{
 	width: 237px;
 	height: 273px;
-	background-color: #818080;
 	float: left;
 	margin-top: 40px;
-	margin-left: 10px;
+	margin-left: 9px;
 	margin-right: 9px;
 }
 
+div.boxrelojes img{
+	margin-top: 40px;
+	margin-left: 70px;
+	width: 100px;
+	height: 100px;
+}
+
+div.boxrelojes p{
+	text-align: center;
+	font-size: 20px;
+	color: #4A4A4A;
+	margin-top: 15px;
+}
+
+h2.titulos{
+	font-size: 34px;
+	color: white;
+	background-color: #30A2A6;
+	text-align: right;
+	padding-top: 20px;
+	padding-right: 10px;
+	width: 324px;
+	height: 61px;
+	
+}
 
 
 
