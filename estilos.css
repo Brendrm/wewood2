@@ -48,13 +48,13 @@ section#relojes{
 section#nosotros{
 	width: 1024px;
 	height: 748px;
-	background-color: #83ACE7;
+
 }
 
 section#catalogo{
 	width: 1024px;
 	height: 788px;
-	background-color: #E2E93D;
+
 }
 
 section#contacto{
@@ -143,6 +143,124 @@ h2.titulos{
 	width: 324px;
 	height: 61px;
 	
+}
+
+div#boxnosotros{
+	background-color: white;
+	width: 846px;
+	height: 551px;
+	margin-left: 87px;
+	margin-right: 87px;
+	margin-top: 52px;
+}
+
+div.cajitas{
+	width: 423px;
+	height: 276px;
+	background-color: #727272;
+	float: left
+}
+
+div#txtartesanales{
+	background-color: #963F6B;
+
+}
+
+div#imgartesanales{
+	background-image: url("img/nosotros_1.jpg");
+}
+
+div#imgdiseno{
+	background-image: url("img/nosotros_2.jpg");
+}
+
+div#txtdiseno{
+	background-color: #30A2A6;
+}
+
+div.cajitas h3{
+	color: white;
+	margin-left: 39px;
+	margin-top: 63px;
+	margin-right: 39px;
+	margin-bottom: 24px;
+	font-size: 20px;
+	line-height: 30px;
+}
+div.cajitas p{
+	color: white;
+	margin-left: 39px;
+	margin-right: 39px;
+	font-size: 14px;
+	line-height: 24px;
+	
+}
+
+section#catalogo h2{
+	width: 324px;
+	height: 66px;
+}
+
+div.boxcatalogo{
+	width: 324px;
+	height: 587px;
+	background-color: #461C31;
+	float: left;
+	margin-top: 66px;
+	margin-left: 8px;
+	margin-right: 8px;
+	margin-bottom: 69px;
+
+}
+
+div.boxcatalogo h4{
+	font-size: 38px;
+	color: #B14E80;
+	margin-top: 50px;
+	margin-left: 107px;
+	margin-right: 107px;
+	margin-bottom: 15px;
+}
+
+div.boxcatalogo h5{
+	font-size: 21px;
+	color: #B14E80;
+	margin-left: 107px;
+	margin-right: 107px;
+	margin-bottom: 45px;
+}
+
+div.boxcatalogo p{
+	font-size: 14px;
+	color: #B14E80;
+	margin-left: 106px;
+	margin-right: 106px;
+	text-align: center;
+	margin-bottom: 17px;
+}
+
+div.boxcatalogo a{
+	width: 112px;
+	height: 30px;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 28px;
+	font-size: 16px;
+	color: #B14E80;
+	text-decoration: none;
+	border: solid 1px #B14E80;
+	border-radius: 22px;
+	padding-top: 10px;
+	padding-left: 50px;
+
+}
+
+div.boxcatalogo img{
+	margin-left: 63px;
+	margin-right: 63px;
+	margin-top: 35px;
+
 }
 
 
