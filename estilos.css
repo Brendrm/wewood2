@@ -60,13 +60,13 @@ section#catalogo{
 section#contacto{
 	width: 1024px;
 	height: 615px;
-	background-color: #F481F6;
+	
 }
 
 footer{
 	width: 1024px;
 	height: 50px;
-	background-color: #A1F66F;
+	background-color: #000000;
 }
 
 nav img{
@@ -263,9 +263,104 @@ div.boxcatalogo img{
 
 }
 
+div.boxcontacto{
+	width: 512px;
+	height: 430px;
+	float: left;
+	margin-top: 40px;
+}
 
+.campo{
+	width: 324px;
+	height: 40px;
+	border: solid 1px #B14E80;
+	border-radius: 8px;
+	padding-left: 10px;
+	margin-top: 10px;
+	color: #B14E80;
+	font-size: 16px;
+	margin-left: 87px;
+}
 
+#altura{
+	height: 129px;
+	resize: none;
+	padding-top: 10px;
+}
 
+.enviar{
+	width: 87px;
+	height: 30px;
+	border-radius: 8px;
+	background-color: #B14E80;
+	color: white;
+	font-size: 16px;
+	margin-left: 335px;
+	cursor: pointer;
+	
+}
+.enviar:hover{
+	background-color: #461C31;
+	color: #B14E80;
+}
 
+::-webkit-input-placeholder{color:#B14E80; }/*safari y chrome*/
+::-mox-input-placeholder {color: #B14E80;}/*mozila firefox*/
+::-ms-input-placeholder{color: #B14E80;} /*microsoft ie o edge*/
+::-o-input-placeholder{color:#B14E80;}/*opera*/
+input-placeholder{color:#B14E80;} /*universal*/
+
+footer h2{
+	color: white;
+	margin-left: 15px;
+	padding-top: 8px;
+	float: left;
+}
+footer ul{
+	float: right;
+	margin-right: 15px;
+	margin-top: 20px;
+	list-style: none;
+	
+}
+
+footer ul li{
+	float: left;
+	margin-left: 15px;
+	
+}
+
+div#facebook{
+	width: 7px;
+	height: 13px;
+	background-image: url("img/facebook.svg");
+	
+}
+
+div#facebook:hover{
+	background-image: url("img/facebook_rosa.svg");
+}
+
+div#twitter{
+	width: 7px;
+	height: 13px;
+	background-image: url("img/twitter.svg");
+	
+}
+
+div#twitter:hover{
+	background-image: url("img/twitter_rosa.svg");
+}
+
+div#instagram{
+	width: 7px;
+	height: 13px;
+	background-image: url("img/instagram.svg");
+	
+}
+
+div#instagram:hover{
+	background-image: url("img/instagram_rosa.svg");
+}
 
 
